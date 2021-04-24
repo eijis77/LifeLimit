@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4274904B2634782E00ED8C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274904A2634782E00ED8C8C /* AppDelegate.swift */; };
+		4274904D2634782E00ED8C8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274904C2634782E00ED8C8C /* SceneDelegate.swift */; };
+		4274904F2634782E00ED8C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274904E2634782E00ED8C8C /* ViewController.swift */; };
+		427490522634782E00ED8C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427490502634782E00ED8C8C /* Main.storyboard */; };
+		427490542634783600ED8C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427490532634783600ED8C8C /* Assets.xcassets */; };
+		427490572634783600ED8C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427490552634783600ED8C8C /* LaunchScreen.storyboard */; };
+		427490622634783700ED8C8C /* LifeHourglassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427490612634783700ED8C8C /* LifeHourglassTests.swift */; };
+		4274906D2634783700ED8C8C /* LifeHourglassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274906C2634783700ED8C8C /* LifeHourglassUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4274905E2634783700ED8C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4274903F2634782E00ED8C8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 427490462634782E00ED8C8C;
+			remoteInfo = LifeHourglass;
+		};
+		427490692634783700ED8C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4274903F2634782E00ED8C8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 427490462634782E00ED8C8C;
+			remoteInfo = LifeHourglass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		427490472634782E00ED8C8C /* LifeHourglass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeHourglass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4274904A2634782E00ED8C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4274904C2634782E00ED8C8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4274904E2634782E00ED8C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		427490512634782E00ED8C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		427490532634783600ED8C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		427490562634783600ED8C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		427490582634783600ED8C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4274905D2634783700ED8C8C /* LifeHourglassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeHourglassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		427490612634783700ED8C8C /* LifeHourglassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHourglassTests.swift; sourceTree = "<group>"; };
+		427490632634783700ED8C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427490682634783700ED8C8C /* LifeHourglassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeHourglassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4274906C2634783700ED8C8C /* LifeHourglassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHourglassUITests.swift; sourceTree = "<group>"; };
+		4274906E2634783700ED8C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		427490442634782E00ED8C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4274905A2634783700ED8C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427490652634783700ED8C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4274903E2634782E00ED8C8C = {
+			isa = PBXGroup;
+			children = (
+				427490492634782E00ED8C8C /* LifeHourglass */,
+				427490602634783700ED8C8C /* LifeHourglassTests */,
+				4274906B2634783700ED8C8C /* LifeHourglassUITests */,
+				427490482634782E00ED8C8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		427490482634782E00ED8C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				427490472634782E00ED8C8C /* LifeHourglass.app */,
+				4274905D2634783700ED8C8C /* LifeHourglassTests.xctest */,
+				427490682634783700ED8C8C /* LifeHourglassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		427490492634782E00ED8C8C /* LifeHourglass */ = {
+			isa = PBXGroup;
+			children = (
+				4274904A2634782E00ED8C8C /* AppDelegate.swift */,
+				4274904C2634782E00ED8C8C /* SceneDelegate.swift */,
+				4274904E2634782E00ED8C8C /* ViewController.swift */,
+				427490502634782E00ED8C8C /* Main.storyboard */,
+				427490532634783600ED8C8C /* Assets.xcassets */,
+				427490552634783600ED8C8C /* LaunchScreen.storyboard */,
+				427490582634783600ED8C8C /* Info.plist */,
+			);
+			path = LifeHourglass;
+			sourceTree = "<group>";
+		};
+		427490602634783700ED8C8C /* LifeHourglassTests */ = {
+			isa = PBXGroup;
+			children = (
+				427490612634783700ED8C8C /* LifeHourglassTests.swift */,
+				427490632634783700ED8C8C /* Info.plist */,
+			);
+			path = LifeHourglassTests;
+			sourceTree = "<group>";
+		};
+		4274906B2634783700ED8C8C /* LifeHourglassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4274906C2634783700ED8C8C /* LifeHourglassUITests.swift */,
+				4274906E2634783700ED8C8C /* Info.plist */,
+			);
+			path = LifeHourglassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		427490462634782E00ED8C8C /* LifeHourglass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427490712634783700ED8C8C /* Build configuration list for PBXNativeTarget "LifeHourglass" */;
+			buildPhases = (
+				427490432634782E00ED8C8C /* Sources */,
+				427490442634782E00ED8C8C /* Frameworks */,
+				427490452634782E00ED8C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeHourglass;
+			productName = LifeHourglass;
+			productReference = 427490472634782E00ED8C8C /* LifeHourglass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4274905C2634783700ED8C8C /* LifeHourglassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427490742634783700ED8C8C /* Build configuration list for PBXNativeTarget "LifeHourglassTests" */;
+			buildPhases = (
+				427490592634783700ED8C8C /* Sources */,
+				4274905A2634783700ED8C8C /* Frameworks */,
+				4274905B2634783700ED8C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4274905F2634783700ED8C8C /* PBXTargetDependency */,
+			);
+			name = LifeHourglassTests;
+			productName = LifeHourglassTests;
+			productReference = 4274905D2634783700ED8C8C /* LifeHourglassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		427490672634783700ED8C8C /* LifeHourglassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427490772634783700ED8C8C /* Build configuration list for PBXNativeTarget "LifeHourglassUITests" */;
+			buildPhases = (
+				427490642634783700ED8C8C /* Sources */,
+				427490652634783700ED8C8C /* Frameworks */,
+				427490662634783700ED8C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4274906A2634783700ED8C8C /* PBXTargetDependency */,
+			);
+			name = LifeHourglassUITests;
+			productName = LifeHourglassUITests;
+			productReference = 427490682634783700ED8C8C /* LifeHourglassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4274903F2634782E00ED8C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					427490462634782E00ED8C8C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					4274905C2634783700ED8C8C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 427490462634782E00ED8C8C;
+					};
+					427490672634783700ED8C8C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 427490462634782E00ED8C8C;
+					};
+				};
+			};
+			buildConfigurationList = 427490422634782E00ED8C8C /* Build configuration list for PBXProject "LifeHourglass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4274903E2634782E00ED8C8C;
+			productRefGroup = 427490482634782E00ED8C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				427490462634782E00ED8C8C /* LifeHourglass */,
+				4274905C2634783700ED8C8C /* LifeHourglassTests */,
+				427490672634783700ED8C8C /* LifeHourglassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		427490452634782E00ED8C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427490572634783600ED8C8C /* LaunchScreen.storyboard in Resources */,
+				427490542634783600ED8C8C /* Assets.xcassets in Resources */,
+				427490522634782E00ED8C8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4274905B2634783700ED8C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427490662634783700ED8C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		427490432634782E00ED8C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4274904F2634782E00ED8C8C /* ViewController.swift in Sources */,
+				4274904B2634782E00ED8C8C /* AppDelegate.swift in Sources */,
+				4274904D2634782E00ED8C8C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427490592634783700ED8C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427490622634783700ED8C8C /* LifeHourglassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427490642634783700ED8C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4274906D2634783700ED8C8C /* LifeHourglassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4274905F2634783700ED8C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 427490462634782E00ED8C8C /* LifeHourglass */;
+			targetProxy = 4274905E2634783700ED8C8C /* PBXContainerItemProxy */;
+		};
+		4274906A2634783700ED8C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 427490462634782E00ED8C8C /* LifeHourglass */;
+			targetProxy = 427490692634783700ED8C8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		427490502634782E00ED8C8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427490512634782E00ED8C8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		427490552634783600ED8C8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427490562634783600ED8C8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4274906F2634783700ED8C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		427490702634783700ED8C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		427490722634783700ED8C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = LifeHourglass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.table.LifeHourglass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		427490732634783700ED8C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = LifeHourglass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.table.LifeHourglass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		427490752634783700ED8C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = LifeHourglassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.table.LifeHourglassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeHourglass.app/LifeHourglass";
+			};
+			name = Debug;
+		};
+		427490762634783700ED8C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = LifeHourglassTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.table.LifeHourglassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeHourglass.app/LifeHourglass";
+			};
+			name = Release;
+		};
+		427490782634783700ED8C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = LifeHourglassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.table.LifeHourglassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeHourglass;
+			};
+			name = Debug;
+		};
+		427490792634783700ED8C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T92U5TKB4F;
+				INFOPLIST_FILE = LifeHourglassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.table.LifeHourglassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeHourglass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		427490422634782E00ED8C8C /* Build configuration list for PBXProject "LifeHourglass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4274906F2634783700ED8C8C /* Debug */,
+				427490702634783700ED8C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427490712634783700ED8C8C /* Build configuration list for PBXNativeTarget "LifeHourglass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427490722634783700ED8C8C /* Debug */,
+				427490732634783700ED8C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427490742634783700ED8C8C /* Build configuration list for PBXNativeTarget "LifeHourglassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427490752634783700ED8C8C /* Debug */,
+				427490762634783700ED8C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427490772634783700ED8C8C /* Build configuration list for PBXNativeTarget "LifeHourglassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427490782634783700ED8C8C /* Debug */,
+				427490792634783700ED8C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4274903F2634782E00ED8C8C /* Project object */;
+}
