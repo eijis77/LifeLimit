@@ -3,18 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4267099D2635139E00B50E61 /* LifeHourglassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4267099C2635139E00B50E61 /* LifeHourglassView.swift */; };
+		426709A2263513CA00B50E61 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426709A1263513CA00B50E61 /* FormView.swift */; };
 		4274904B2634782E00ED8C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274904A2634782E00ED8C8C /* AppDelegate.swift */; };
 		4274904D2634782E00ED8C8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274904C2634782E00ED8C8C /* SceneDelegate.swift */; };
-		4274904F2634782E00ED8C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274904E2634782E00ED8C8C /* ViewController.swift */; };
+		4274904F2634782E00ED8C8C /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274904E2634782E00ED8C8C /* LaunchViewController.swift */; };
 		427490522634782E00ED8C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427490502634782E00ED8C8C /* Main.storyboard */; };
 		427490542634783600ED8C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427490532634783600ED8C8C /* Assets.xcassets */; };
 		427490572634783600ED8C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427490552634783600ED8C8C /* LaunchScreen.storyboard */; };
 		427490622634783700ED8C8C /* LifeHourglassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427490612634783700ED8C8C /* LifeHourglassTests.swift */; };
 		4274906D2634783700ED8C8C /* LifeHourglassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4274906C2634783700ED8C8C /* LifeHourglassUITests.swift */; };
+		4A873D23520BC4AC6E6C9A6E /* Pods_LifeHourglass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2BAD06FA3F3A74803B3BE3 /* Pods_LifeHourglass.framework */; };
+		77C0A415A35925E15D1FEC67 /* Pods_LifeHourglassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26024EBF5F82611150D05038 /* Pods_LifeHourglassTests.framework */; };
+		ECD88A0C19F16528DA90BBFE /* Pods_LifeHourglass_LifeHourglassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5FDE631310EEE813CF995A /* Pods_LifeHourglass_LifeHourglassUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26024EBF5F82611150D05038 /* Pods_LifeHourglassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeHourglassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E04B28D3286AAD3F96CA028 /* Pods-LifeHourglassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeHourglassTests.release.xcconfig"; path = "Target Support Files/Pods-LifeHourglassTests/Pods-LifeHourglassTests.release.xcconfig"; sourceTree = "<group>"; };
+		4267099C2635139E00B50E61 /* LifeHourglassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHourglassView.swift; sourceTree = "<group>"; };
+		426709A1263513CA00B50E61 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		427490472634782E00ED8C8C /* LifeHourglass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeHourglass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4274904A2634782E00ED8C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4274904C2634782E00ED8C8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4274904E2634782E00ED8C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4274904E2634782E00ED8C8C /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		427490512634782E00ED8C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		427490532634783600ED8C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		427490562634783600ED8C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		427490682634783700ED8C8C /* LifeHourglassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeHourglassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4274906C2634783700ED8C8C /* LifeHourglassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHourglassUITests.swift; sourceTree = "<group>"; };
 		4274906E2634783700ED8C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591422B0748DA704DADE145C /* Pods-LifeHourglass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeHourglass.release.xcconfig"; path = "Target Support Files/Pods-LifeHourglass/Pods-LifeHourglass.release.xcconfig"; sourceTree = "<group>"; };
+		5F5FDE631310EEE813CF995A /* Pods_LifeHourglass_LifeHourglassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeHourglass_LifeHourglassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AB55601287886E22838DA3 /* Pods-LifeHourglass-LifeHourglassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeHourglass-LifeHourglassUITests.debug.xcconfig"; path = "Target Support Files/Pods-LifeHourglass-LifeHourglassUITests/Pods-LifeHourglass-LifeHourglassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7360E1DB2E8948613009E15A /* Pods-LifeHourglass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeHourglass.debug.xcconfig"; path = "Target Support Files/Pods-LifeHourglass/Pods-LifeHourglass.debug.xcconfig"; sourceTree = "<group>"; };
+		9A43D404ABE0D6051BA2AD93 /* Pods-LifeHourglass-LifeHourglassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeHourglass-LifeHourglassUITests.release.xcconfig"; path = "Target Support Files/Pods-LifeHourglass-LifeHourglassUITests/Pods-LifeHourglass-LifeHourglassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B55F0DC084E2B13D087DD7BC /* Pods-LifeHourglassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeHourglassTests.debug.xcconfig"; path = "Target Support Files/Pods-LifeHourglassTests/Pods-LifeHourglassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA2BAD06FA3F3A74803B3BE3 /* Pods_LifeHourglass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeHourglass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A873D23520BC4AC6E6C9A6E /* Pods_LifeHourglass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C0A415A35925E15D1FEC67 /* Pods_LifeHourglassTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD88A0C19F16528DA90BBFE /* Pods_LifeHourglass_LifeHourglassUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AD270368B8EC7F83577688A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2BAD06FA3F3A74803B3BE3 /* Pods_LifeHourglass.framework */,
+				5F5FDE631310EEE813CF995A /* Pods_LifeHourglass_LifeHourglassUITests.framework */,
+				26024EBF5F82611150D05038 /* Pods_LifeHourglassTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4274903E2634782E00ED8C8C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				427490602634783700ED8C8C /* LifeHourglassTests */,
 				4274906B2634783700ED8C8C /* LifeHourglassUITests */,
 				427490482634782E00ED8C8C /* Products */,
+				A983BAB8FA0C4BF4A9C90AD5 /* Pods */,
+				2AD270368B8EC7F83577688A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +132,9 @@
 			children = (
 				4274904A2634782E00ED8C8C /* AppDelegate.swift */,
 				4274904C2634782E00ED8C8C /* SceneDelegate.swift */,
-				4274904E2634782E00ED8C8C /* ViewController.swift */,
+				4274904E2634782E00ED8C8C /* LaunchViewController.swift */,
+				426709A1263513CA00B50E61 /* FormView.swift */,
+				4267099C2635139E00B50E61 /* LifeHourglassView.swift */,
 				427490502634782E00ED8C8C /* Main.storyboard */,
 				427490532634783600ED8C8C /* Assets.xcassets */,
 				427490552634783600ED8C8C /* LaunchScreen.storyboard */,
@@ -128,6 +161,19 @@
 			path = LifeHourglassUITests;
 			sourceTree = "<group>";
 		};
+		A983BAB8FA0C4BF4A9C90AD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7360E1DB2E8948613009E15A /* Pods-LifeHourglass.debug.xcconfig */,
+				591422B0748DA704DADE145C /* Pods-LifeHourglass.release.xcconfig */,
+				62AB55601287886E22838DA3 /* Pods-LifeHourglass-LifeHourglassUITests.debug.xcconfig */,
+				9A43D404ABE0D6051BA2AD93 /* Pods-LifeHourglass-LifeHourglassUITests.release.xcconfig */,
+				B55F0DC084E2B13D087DD7BC /* Pods-LifeHourglassTests.debug.xcconfig */,
+				2E04B28D3286AAD3F96CA028 /* Pods-LifeHourglassTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427490712634783700ED8C8C /* Build configuration list for PBXNativeTarget "LifeHourglass" */;
 			buildPhases = (
+				68A7476A766F51528CB4553B /* [CP] Check Pods Manifest.lock */,
 				427490432634782E00ED8C8C /* Sources */,
 				427490442634782E00ED8C8C /* Frameworks */,
 				427490452634782E00ED8C8C /* Resources */,
+				AC7CBB419C7BF90337BAF039 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427490742634783700ED8C8C /* Build configuration list for PBXNativeTarget "LifeHourglassTests" */;
 			buildPhases = (
+				A0682B3E75763F36519D7C25 /* [CP] Check Pods Manifest.lock */,
 				427490592634783700ED8C8C /* Sources */,
 				4274905A2634783700ED8C8C /* Frameworks */,
 				4274905B2634783700ED8C8C /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427490772634783700ED8C8C /* Build configuration list for PBXNativeTarget "LifeHourglassUITests" */;
 			buildPhases = (
+				2AE631B9949AB605EC69EC7D /* [CP] Check Pods Manifest.lock */,
 				427490642634783700ED8C8C /* Sources */,
 				427490652634783700ED8C8C /* Frameworks */,
 				427490662634783700ED8C8C /* Resources */,
+				028C01CE8974CC3288A71815 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +304,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		028C01CE8974CC3288A71815 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeHourglass-LifeHourglassUITests/Pods-LifeHourglass-LifeHourglassUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeHourglass-LifeHourglassUITests/Pods-LifeHourglass-LifeHourglassUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifeHourglass-LifeHourglassUITests/Pods-LifeHourglass-LifeHourglassUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AE631B9949AB605EC69EC7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeHourglass-LifeHourglassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68A7476A766F51528CB4553B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeHourglass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0682B3E75763F36519D7C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeHourglassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7CBB419C7BF90337BAF039 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeHourglass/Pods-LifeHourglass-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeHourglass/Pods-LifeHourglass-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifeHourglass/Pods-LifeHourglass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		427490432634782E00ED8C8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4274904F2634782E00ED8C8C /* ViewController.swift in Sources */,
+				4274904F2634782E00ED8C8C /* LaunchViewController.swift in Sources */,
+				4267099D2635139E00B50E61 /* LifeHourglassView.swift in Sources */,
+				426709A2263513CA00B50E61 /* FormView.swift in Sources */,
 				4274904B2634782E00ED8C8C /* AppDelegate.swift in Sources */,
 				4274904D2634782E00ED8C8C /* SceneDelegate.swift in Sources */,
 			);
@@ -366,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,10 +589,12 @@
 		};
 		427490722634783700ED8C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7360E1DB2E8948613009E15A /* Pods-LifeHourglass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = T92U5TKB4F;
 				INFOPLIST_FILE = LifeHourglass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,17 +603,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.table.LifeHourglass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = LifeHourglassDevelop;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		427490732634783700ED8C8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591422B0748DA704DADE145C /* Pods-LifeHourglass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = T92U5TKB4F;
 				INFOPLIST_FILE = LifeHourglass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,13 +625,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.table.LifeHourglass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = LifeHourglassDevelop;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		427490752634783700ED8C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B55F0DC084E2B13D087DD7BC /* Pods-LifeHourglassTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +656,7 @@
 		};
 		427490762634783700ED8C8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E04B28D3286AAD3F96CA028 /* Pods-LifeHourglassTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +679,7 @@
 		};
 		427490782634783700ED8C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AB55601287886E22838DA3 /* Pods-LifeHourglass-LifeHourglassUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +700,7 @@
 		};
 		427490792634783700ED8C8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A43D404ABE0D6051BA2AD93 /* Pods-LifeHourglass-LifeHourglassUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
