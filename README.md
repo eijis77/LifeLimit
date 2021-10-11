@@ -12,7 +12,7 @@ Swift,Xcode,CocoaPods
 
 ## 使用ライブラリ
 
-Eureka,SwiftGifOrigin,Cartography,SCLAlertView  
+Eureka,Cartography,SCLAlertView  
 
 ## 背景
 
