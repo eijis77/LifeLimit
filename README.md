@@ -6,6 +6,14 @@ Life Limit
 
 生年月日と性別を設定すると残りの寿命がナノ秒単位で分かるアプリ  
 
+## 使用言語・技術
+
+Swift,Xcode,CocoaPods  
+
+## 使用ライブラリ
+
+Eureka,SwiftGifOrigin,Cartography,SCLAlertView  
+
 ## 背景
 
 平均寿命と比べた時に自分の余命はどれくらいなのか。  
